@@ -1,0 +1,130 @@
+.iphoneImg{
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    right: 1rem;
+}
+
+.logo_text{
+    width: 50%;
+    object-fit: contain;
+    display: block;
+    margin: 2rem auto -1rem auto;
+}
+
+.flexcenter{
+    flex-direction: row;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid rgba(216, 216, 216, 0.9);
+    margin: .5rem;
+}
+
+.bg{
+    background-color: white;
+}
+.bg2{
+    background-color: gray;
+}
+
+
+/* LOGIN */
+
+.instagram-card{
+    max-width: 350px;
+}
+
+.instagram_login{
+    padding: 0rem 2rem;
+}
+.instagram_cadastro{
+    padding: 1rem;
+}
+
+.login{
+    padding-top: 1rem;
+}
+
+.miss-pass{
+    font-size: 12px;
+}
+
+.divisor{
+    display: flex;
+    flex-direction: row;
+    padding: .5rem 0;
+    
+}
+
+.divisor .hr{
+    flex-grow: 1;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.3);
+    position: relative;
+    top: .75rem;
+}
+.divisor .hr-text{
+    padding: 0 1rem;
+    color: rgba(128, 128, 128, 0.9);
+    font-weight: 400;
+}
+
+input, .btn {
+    border-radius: 2px;
+}
+
+input{
+    background: rgba(214, 214, 214, 0.2);
+    border: 1px solid rgba(216, 216, 216, 0.5);
+    height: 30px;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+    width: 100%;
+}
+input::placeholder{
+    font-size: 11px;
+    padding: .5rem;
+}
+input:placeholder-shown{
+    position: relative;
+    top: -5px;
+}
+.btn{
+    color: white;
+    background-color: #0094f64f;
+}
+
+.btn_enter{
+    border-radius: 4px;
+    margin-top: .5rem;
+    font-weight: bolder;
+}
+
+.btn_enter:active, .btn_enter::after{
+    border: none;
+}
+
+.divsor{
+    margin-top: 1rem;
+}
+
+.miss-pass{
+    margin-bottom: 0;
+}
+
+.get-app{
+    max-height: 65px;
+}
+
+footer{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+footer span{
+    font-size: 12px;
+    margin: .25rem;
+}
+
+
